@@ -42,14 +42,22 @@ body {
 .pop-up {
     display: grid;
     justify-self: center;
-    background-color: #47663B;
-    width: 40%;
+    /* background-color: #47663B; */
+    width: 20%;
 }
 
 form {
     gap: 5px;
 }
 
+.readCheck {
+    display: flex;
+    justify-content: center;
+}
+
 #library {
     padding: 20px;
+    display: flex;
+    text-align: center;
+    gap: 15px;
 }
